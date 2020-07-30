@@ -1,0 +1,16 @@
+/* Assign margins using a mixin */
+$body-margin: 10px;
+$div-margin: 15px;
+
+@mixin margins($margin) {
+  margin-left: $margin;
+  margin-right: $margin;
+}
+
+body {
+  @include margins($body-margin);
+}
+
+div {
+  @include margins($div-margin);
+}
