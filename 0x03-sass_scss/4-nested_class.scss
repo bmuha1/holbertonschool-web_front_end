@@ -1,0 +1,11 @@
+/* Assign text colors using nested declarations */
+$primary-color: #3d3d3d;
+$red: #ff0000;
+
+body {
+  color: $primary-color;
+
+  .red {
+    color: $red;
+  }
+}
