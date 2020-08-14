@@ -353,7 +353,7 @@ main img {
       ============================= */
 
 .container {
-  width: max-width;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
