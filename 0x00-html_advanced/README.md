@@ -10,7 +10,8 @@ Read or watch:
 
 ---
 ## Learning Objectives:bulb:
-* What you should learn from this project:
+What you should learn from this project:
+
 * Which guidelines to follow for HTML
 * How to create the skeleton of an HTML5 page
 * How to use semantic HTML tags to structure a web page
