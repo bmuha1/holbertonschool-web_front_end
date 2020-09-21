@@ -8,5 +8,11 @@ let user = {
   occupation: 'Engineer',
 };
 
-let boundGetArea = roomDimensions.getArea.bind(roomDimensions);
-boundGetArea();
+function logWelcomeUser(welcomeString) {
+  console.log(
+    `${welcomeString}, ${this.firstName}. Your occupation is: ${this.occupation}`
+  );
+}
+
+let bindLogWelcomeUser = logWelcomeUser.bind(user);
+bindLogWelcomeUser('Welcome');
