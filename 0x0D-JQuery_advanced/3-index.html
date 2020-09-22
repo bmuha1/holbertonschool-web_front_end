@@ -12,16 +12,16 @@
     <script type='application/javascript'>
         function createFamilyTree() {
             $('body').append('<table></table>');
-            $('table').append('<tr></tr>', '<tr></tr>', '<tr></tr>', '<tr></tr>');
-            $('tr:first').append('<th></th>', '<th></th>');
-            $('tr:nth-child(2)').append('<td></td>', '<td></td>');
-            $('tr:nth-child(3)').append('<td></td>', '<td></td>');
-            $('tr:nth-child(4)').append('<td></td>', '<td></td>');
+            $('table').append('<thead></thead>', '<tbody></tbody>');
+            $('thead').append('<tr></tr>');
+            $('tbody').append('<tr></tr>', '<tr></tr>', '<tr></tr>');
+            $('thead tr').append('<th></th>', '<th></th>');
+            $('tbody tr').append('<td></td>', '<td></td>');
             $('th:first').text('Firstname');
             $('th:last').text('Lastname');
             $('td:first').text('Guillaume');
-            $('tr:nth-child(3) > td:first').text('Paulette');
-            $('tr:nth-child(4) > td:first').text('Antoine');
+            $('tr:nth-child(2) > td:first').text('Paulette');
+            $('tr:nth-child(3) > td:first').text('Antoine');
             $('td:last-child').text('Salva');
         }
         createFamilyTree();
