@@ -49,6 +49,11 @@
       "title": "f",
       "author": "Veronica",
       "id": 10
+    },
+    {
+      "title": "add new post",
+      "author": "test",
+      "id": 11
     }
   ],
   "comments": [
