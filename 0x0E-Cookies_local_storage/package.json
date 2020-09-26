@@ -1,0 +1,18 @@
+{
+  "name": "0x0E-Cookies_local_storage",
+  "version": "1.0.0",
+  "description": "## Resources:books: Read or watch: * [Cookies and Javascript](https://intranet.hbtn.io/rltoken/GSKBY0oEF0AQNv54Qg66Og) * [HTTP Cookies](https://intranet.hbtn.io/rltoken/gCsMhEyenOBpsxPQ4OwAFQ) * [js-cookie](https://intranet.hbtn.io/rltoken/XQMxtCbN2K7Ut6ogMtAdaA) * [Web storage](https://intranet.hbtn.io/rltoken/a4_bzdeKqv8gNw4gPOGIQg)",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack": "^4.44.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
