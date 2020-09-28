@@ -9,8 +9,8 @@
 <body>
     <script>
         const availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
-        function addItemToCart(string) {
-            sessionStorage.setItem(string, true);
+        function addItemToCart(item) {
+            sessionStorage.setItem(item, true);
         }
 
         function createStore() {
